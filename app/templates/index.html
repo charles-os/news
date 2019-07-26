@@ -11,22 +11,20 @@
 </head>
 {% import 'macros.html' as macro %}
 <body>
-
-   <!-- Popular movie -->
-   <h3> Popular Movies</h3>
-   <ul>
+    <!-- Popular movie -->
+    <h3> Popular Movies</h3>
+    <ul>
         {{ macro.displayMovieList(popular)}}
-   </ul>
-   <!-- Upcoming movie  -->
-   <h3> Upcoming Movies </h3>
-   <ul>
+    </ul>
+    <!-- Upcoming movie  -->
+    <h3> Upcoming Movies </h3>
+    <ul>
         {{ macro.displayMovieList(upcoming)}}
-   </ul>
-   <!-- Now showing movie -->
-   <h3>Now Showing</h3>
-   <ul>
+    </ul>
+    <!-- Now showing movie -->
+    <h3>Now Showing</h3>
+    <ul>
         {{ macro.displayMovieList(now_showing)}}
-   </ul>
-
+    </ul>
 </body>
 </html>

@@ -10,7 +10,6 @@ from .request import get_movies
 def index():
     '''View root page function that returns the index page and its get_movies_data
     '''
-
     #getting popular movies
     popular_movies = get_movies('popular')
     upcoming_movie = get_movies('upcoming')
@@ -20,9 +19,7 @@ def index():
 
 @app.route('/movie/<movie_id>')
 def movie(movie_id):
-
     '''
     View movie page function that returns the movie details page and its data
     '''
-    
     return render_template('movie.html',id = movie_id)
