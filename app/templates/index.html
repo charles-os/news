@@ -13,6 +13,16 @@
 <!-- Content block -->
 
 {% block content %}
+
+<!-- SEARCH MOVIE FORM IMPLEMENTATION WEDNESDAY -->
+<div class="container">
+    <form>
+        <input type="text" name="movie_query" placeholder="Search for a Movie" class="form-control">
+        <input type="submit"  value="Submit" class="btn btn-default">
+    </form>
+
+</div>
+
 <!-- Popular movie -->
 <h3> Popular Movies</h3>
 <ul>
@@ -28,6 +38,6 @@
 <ul>
     {{ macro.displayMovieList(now_showing)}}
 </ul>
-
+#SEARCH MODULE
 
 {% endblock%}
