@@ -68,6 +68,7 @@ def process_results(movie_list):
             movie_results.append(movie_object)
 
     return movie_results
+    
 def get_movie(id):
     get_movie_details_url = base_url.format(id,api_key)
 
@@ -87,7 +88,7 @@ def get_movie(id):
             movie_object = Movie(id,title,overview,poster,vote_average,vote_count)
 
     return movie_object
-    
+
 #SEARCHING MOVIES
 
 def search_movie(movie_name):
