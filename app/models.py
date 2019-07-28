@@ -1,15 +1,17 @@
-class Movie:
-    '''
-    a class to store movie details fro api
+class News:
 
-    '''
-    def __init__(self,id, title, overview, poster, vote_average, vote_count):
-        self.id = id
-        self.title = title
-        self. overview = overview
-        self.poster = 'p'+ poster
-        self.vote_average = vote_average
-        self.vote_count = vote_count
+
+	'''
+	News class to define News Objects
+	'''
+	def __init__(self, id, name, description, url, category):
+
+
+		self.id = id
+		self.name = name
+		self.description = description
+		self.url = url
+		self.category = category
 
 
 class Review:
