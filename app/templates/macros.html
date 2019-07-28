@@ -2,16 +2,16 @@
 
 	{% for source_row in news_list | batch(4)%}
         <div class="row">
-	        	
+
             {% for news in source_row %}
 	            <div class="col-md-3">
-		           
+
 						<div class="panel-heading">
 							<a href="/news/{{news.id}}">
 
 							    {{ news.name}}
 							</a>
-						
+
 						</div>
 						<a href="/news/{{news.image}}">
 						{{news.image}}
@@ -26,7 +26,7 @@
 
 		        </div>
             {% endfor %}
-	        	
+
         </div>
     {% endfor %}
 
