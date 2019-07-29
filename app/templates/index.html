@@ -2,9 +2,9 @@
 {% import 'macros.html' as macro%}{% block content %}
 <div class="container-fluid">
   <br>
-  <hr>
-  <h2 style="font-family:verdana";>News Highlights</h2>
-  <hr>
+  <div style="background-color:lightgrey; style:italic;font-family:verdana;border-radius:50%; ">
+  <h3 class="text-center">Top News: we bring them up as they come up ; </h3>
+  </div>
   <br>
 
   {% block styles%}
@@ -14,25 +14,19 @@
 
 <link rel="stylesheet"
       href="{{url_for('static', filename='styles.css')}}"><div class="container">
-        <!-- Business News Section  -->
-        <h3 class="text-center">Top News</h3>
-         
+        <!-- Business News Section  -->        
         <h3 class='text-center' >Technology News</h3>
         <hr>
-
         {{ macro.displayNewsList(technology_news)}}
-
        <!-- Entertainment -->
-         
         <h3 class='text-center' >Entertainment News</h3>
         <hr>
-
+        <div class='card-body' style="background-image: linear-gradient(lightgrey,smok);">
         {{ macro.displayNewsList(entertainment_news)}}
-
+        <div/>
        <!-- Business  -->
-        <h3 class='text-center' >Business News</h3>
+        <h3 class='text-center; card-footer' >Business News</h3>
         <hr>
-
         {{ macro.displayNewsList(business_news)}}
 
         <!-- SPORTS  -->
@@ -44,7 +38,7 @@
 
 <div class="blockquote">
   <footer style="background-color:lightgrey">
-<p style="text-align:center;">(C) 2019 munyiJoe</p>
+<p style="text-align:center;top:5%;">(C) 2019 munyiJoe</p>
   </footer>
 </div>
 </div>

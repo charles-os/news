@@ -27,8 +27,6 @@ def get_news(category):
         get_news_data = url.read()
         get_news_response = json.loads(get_news_data)
 
-        news_results = None
-
         if get_news_response['sources']:
             news_results_list = get_news_response['sources']
             news_results = process_news(news_results_list)
@@ -52,7 +50,6 @@ def process_news(news_list):
 
         if source_item:
             news_object = News(id,name,description,url,category,country,language,image)
-            source_item = News(id,name,description,url,category,country,language,image)
             news_results.append(news_object)
             
 
@@ -77,8 +74,6 @@ def get_articles(id):
 
 # PROCESS ARTICLES
 def process_articles(articles_list):
-    '''
-    '''
     articles_object = []
     for article_item in articles_list:
         id = article_item.get('id')
