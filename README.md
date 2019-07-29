@@ -2,9 +2,9 @@
 
 Author : Munyi Mwangi Wanjiku
 
-## Live app launch 
+## Live app launch
 
-Live app launch <a href = 'https://munyi-news.herokuapp.com/'>
+Live app launch <a href = 'https://munyi-news.herokuapp.com/'>. Click.
 
 ## Description
 
@@ -13,13 +13,15 @@ DAILY STORY/ News-Feed is a web application that displays a list of various news
 ## Set up and Installations
 
 Clone the repository to your local machine from the link below
-Clone from <a href='https://github.com/Munyiwamwangi/NewsFeed.git'>
+
+Click to Clone <link '<https://github.com/Munyiwamwangi/NewsFeed.git'>Clone.>
+
 Install and open virtual environment and run the app using the commands
 
   $ chmod +x start.sh
   $ ./start.sh
 
-Visit <a href = 'https://newsapi.org/'>
+Click to learn more about  <a href = 'https://newsapi.org/'>
 
 ## Happy Coding
 
