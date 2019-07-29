@@ -6,8 +6,7 @@ Author : Munyi Mwangi Wanjiku
 
 Live app launch <a href = 'https://munyi-news.herokuapp.com/'>
 
-Prolific News Highlights is a web application that displays a list of various news sources like BBC and CNN. On choosing a news source.Clicking a news link will redirect the user to read it fully from the news source. It consumes data from the News API.
-You can view the site at:<a href = 'https://newsapi.org/'>
+DAILY STORY/ News-Feed is a web application that displays a list of various news sources like BBC and CNN. On choosing a news source.Clicking a news link will redirect the user to read it fully from the news source. It consumes data from the News API and provides it to user in categories.
 
 ## Set up and Installations
 
