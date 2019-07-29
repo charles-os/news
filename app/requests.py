@@ -1,6 +1,5 @@
 import urllib.request,json
 from .models import News, Articles
-from datetime import datetime
 #getting the api key
 api_key = None
 
