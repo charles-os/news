@@ -12,8 +12,12 @@ You can view the site at:<a href = 'https://newsapi.org/'>
 ## Set up and Installations
 
 Clone the repository to your local machine from the link below
-Clone from 
-Install and open virtual environment and run the app using the commands ./Start.sh
+Clone from <a href='https://github.com/Munyiwamwangi/NewsFeed.git'>
+Install and open virtual environment and run the app using the commands
+
+  $ chmod +x start.sh
+  $ ./start.sh
+
 Visit <a href = 'https://newsapi.org/'>
 
 ## Happy Coding
@@ -39,7 +43,7 @@ Visit <a href = 'https://newsapi.org/'>
 ## Built With
 
 * Flask - routing, templating, server
-* python - routing, templating, server
+* python3.6 - routing, templating, server
 * Markdown -README
 
 ## Contributing
