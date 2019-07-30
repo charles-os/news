@@ -4,7 +4,7 @@ Author : Munyi Mwangi Wanjiku
 
 ## Live app launch
 
-Live app launch <a href = 'https://munyi-news.herokuapp.com/'>. Click.
+Live app: launch APP<a href = 'https://joefeeds.herokuapp.com/'>. Click.
 
 ## Description
 
@@ -55,6 +55,7 @@ If you want to put out a pull request you first have to send us the sample code 
 
 ## Authors Other Works
 
+<a href = 'https://munyiwamwangi.github.io/Quotes-App/'> - Quotes App: An app that allows users to create, delete and vote for their favourite quotes.
 <a href = 'https://munyiwamwangi.github.io/Quotes-App/'> - Quotes App: An app that allows users to create, delete and vote for their favourite quotes.
 
 ## Contacts
