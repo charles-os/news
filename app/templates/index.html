@@ -2,7 +2,7 @@
 {% import 'macros.html' as macro%}{% block content %}
 <div class="container-fluid">
   <br>
-  <div style="background-color:lightgrey; style:italic;font-family:verdana;border-radius:50%; ">
+  <div style="background-color:lightgrey; style:italic;font-style:italics;border-radius:50%; ">
   <h3 class="text-center">Top News: we bring them up as they come up ; </h3>
   </div>
   <br>
@@ -14,18 +14,20 @@
 
 <link rel="stylesheet"
       href="{{url_for('static', filename='styles.css')}}"><div class="container">
-        <!-- Business News Section  -->        
+        <!-- Business News Section  -->   
+        <div class='card-body' style="background-image: repeating-radial-gradient(grey,lightgrey);">     
         <h3 class='text-center' >Technology News</h3>
         <hr>
         {{ macro.displayNewsList(technology_news)}}
        <!-- Entertainment -->
+        <hr>
         <h3 class='text-center' >Entertainment News</h3>
         <hr>
-        <div class='card-body' style="background-image: linear-gradient(lightgrey,smok);">
+        
         {{ macro.displayNewsList(entertainment_news)}}
-        <div/>
+        <hr>       
        <!-- Business  -->
-        <h3 class='text-center; card-footer' >Business News</h3>
+        <h3 class='text-center;' >Business News</h3>
         <hr>
         {{ macro.displayNewsList(business_news)}}
 
@@ -35,6 +37,7 @@
         <hr>
 
         {{ macro.displayNewsList(sports_news)}}
+         <div/>
 
 <div class="blockquote">
   <footer style="background-color:lightgrey">
